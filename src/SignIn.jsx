@@ -34,7 +34,7 @@ function SignIn() {
 {/* col2 */}
 <div className='col col-md-4'  >
 <div className='d-flex align-items-center justify-content-center justify-content-md-start pt-md-0 pt-sm-3'  >
-  <Link  to='/signin'> 
+  <Link  to='/'> 
 <a style={{fontSize:'2.2vw',fontWeight:'500'}} onClick={(e)=>{}}>Sign In</a> </Link> 
  <Link to='/join'>  <a style={{fontSize:'2.2vw',fontWeight:'500',marginLeft:'2vw'}} onClick={()=>{}}>Join In</a>  </Link>
 </div>

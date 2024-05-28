@@ -55,7 +55,7 @@ function Nav() {
 <img src={bookmark} style={{width:'2vw',margin:'0 1.5vw'}} alt="" />
 <img src={notification} style={{width:'2vw'}} alt="" />
 <img src={cart} style={{width:'2vw',margin:'0 1.5vw'}} alt="" />
-<Link to='/signin'> <button className='btn btn-outline-primary rounded'>Signin</button></Link>
+<Link to='/'> <button className='btn btn-outline-primary rounded'>Signin</button></Link>
 </div>
       </div> 
           </div>
