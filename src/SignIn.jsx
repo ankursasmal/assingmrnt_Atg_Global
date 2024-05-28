@@ -24,11 +24,11 @@ function SignIn() {
     <img src={job} style={{width:'75%' }} alt="" />
 
 <div style={{display:'flex',flexDirection:'column',padding:'2vw 0'}} >
-<a style={{fontSize:'.75vw',paddingBottom:'1.5vw'}}>Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…
+<a style={{fontSize:'1vw',paddingBottom:'1.7vw'}}>Sign-in to interact with a community of fellow hobbyists and an eco-system of experts, teachers, suppliers, classes, workshops, and places to practice, participate or perform. Your hobby may be about visual or performing arts, sports, games, gardening, model making, cooking, indoor or outdoor activities…
 </a>
 <a style={{fontSize:'1vw'}}>If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products,  services or events.  Hop on your hobbyhorse and enjoy the ride.</a>
 </div>
-<img src={Group27}  className='pt-3 w-md-100 '  alt=''/>  
+<img src={Group27}  className='pt- w-md-100 '  alt=''/>  
  </div>
 </div>
 {/* col2 */}

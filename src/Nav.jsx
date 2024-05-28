@@ -47,18 +47,18 @@ setshow1(false);
           <div className='d-none d-md-block'> 
 
           <div className='d-flex justify-content-center align-items-center'  >
-<div className='d-flex' style={{alignItems:'center',margin:'0 1.5vw'}} onClick={handelvisible}>
+<div className='d-flex' style={{alignItems:'center',margin:'0 1.5vw'}}  >
 <img src={Layer2} style={{width:'2vw'}} alt="" />
-<div  className="dropdown">
+<div  className="dropdown" onClick={handelvisible}>
   <button  className="btn " style={{outline:'none',fontSize:'1.2vw'}} type="button" data-bs-toggle="dropdown" aria-expanded="false">
   Explore  </button>
   
 </div>
 <img src={arrow}style={{width:'2vw'}} alt="" />
 </div>
-<div className='d-flex   align-items-center' onClick={handelvisible1} >
+<div className='d-flex   align-items-center'   >
 <img src={Hobbies} style={{width:'2vw'}} alt="" />
-<div  className="dropdown">
+<div  className="dropdown" onClick={handelvisible1}>
   <button  className="btn   " style={{outline:'none',fontSize:'1.2vw'}} type="button" data-bs-toggle="dropdown" aria-expanded="false">
   Hobbies  </button>
  
