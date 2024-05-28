@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navimg from './assets/Navimg.png'
 import Layer2 from './assets/Layer2.png'
 import Hobbies from './assets/Hobbies.png'
@@ -9,8 +9,29 @@ import arrow from './assets/arrow.png'
 import search from './assets/search.png'
 import menu from './assets/menu.png'
 import { Outlet, Link } from "react-router-dom";
+import style from './Style/Nav.module.css'
 
 function Nav() {
+  let [show,setshow]=useState(false)
+  let [show1,setshow1]=useState(false)
+
+  let handelvisible=()=>{
+    if(show){
+setshow(false);
+    }
+    else{
+      setshow(true)
+    }
+  }
+
+  let handelvisible1=()=>{
+    if(show1){
+setshow1(false);
+    }
+    else{
+      setshow1(true)
+    }
+  }
   return (
     <div className='container pt-2 pb-2 pt-md-3 pb-md-3'>
 <div className='d-none d-md-block'>
@@ -26,29 +47,21 @@ function Nav() {
           <div className='d-none d-md-block'> 
 
           <div className='d-flex justify-content-center align-items-center'  >
-<div className='d-flex' style={{alignItems:'center',margin:'0 1.5vw'}}>
+<div className='d-flex' style={{alignItems:'center',margin:'0 1.5vw'}} onClick={handelvisible}>
 <img src={Layer2} style={{width:'2vw'}} alt="" />
 <div  className="dropdown">
   <button  className="btn " style={{outline:'none',fontSize:'1.2vw'}} type="button" data-bs-toggle="dropdown" aria-expanded="false">
   Explore  </button>
-  <ul  className="dropdown-menu">
-    <li><a  className="dropdown-item" href="#">Action</a></li>
-    <li><a  className="dropdown-item" href="#">Another action</a></li>
-    <li><a  className="dropdown-item" href="#">Something else here</a></li>
-  </ul>
+  
 </div>
 <img src={arrow}style={{width:'2vw'}} alt="" />
 </div>
-<div className='d-flex   align-items-center'  >
+<div className='d-flex   align-items-center' onClick={handelvisible1} >
 <img src={Hobbies} style={{width:'2vw'}} alt="" />
 <div  className="dropdown">
   <button  className="btn   " style={{outline:'none',fontSize:'1.2vw'}} type="button" data-bs-toggle="dropdown" aria-expanded="false">
   Hobbies  </button>
-  <ul  className="dropdown-menu">
-    <li><a  className="dropdown-item" href="#">Action</a></li>
-    <li><a  className="dropdown-item" href="#">Another action</a></li>
-    <li><a  className="dropdown-item" href="#">Something else here</a></li>
-  </ul>
+ 
 </div>
 <img src={arrow}style={{width:'2vw'}} alt="" />
 
@@ -76,6 +89,33 @@ function Nav() {
 </div>
 </div>
 </div>
+{show1?
+ <div className='d-none d-md-block '  style={{display:'block'}}> <ul  className={`${style.shadows}`} style={{position:'absolute',top:'75px',right:'25vw' ,overflow:'hidden',padding:'1vw 2vw'}}>
+    <li><a  className="dropdown-item" href="#">Action</a></li>
+    <li><a  className="dropdown-item" href="#">Another action</a></li>
+    <li><a  className="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+  </div>
+  :<div   style={{display:'none'}}> <ul  className={`${style.shadows}`} style={{position:'absolute',top:'30px',right:'30vw' ,overflow:'hidden'}}>
+  <li><a  className="dropdown-item" href="#">Action</a></li>
+  <li><a  className="dropdown-item" href="#">Another action</a></li>
+  <li><a  className="dropdown-item" href="#">Something else here</a></li>
+</ul>
+</div>}
+ 
+ {show?
+ <div className='d-none d-md-block '  style={{display:'block'}}> <ul  className={`${style.shadows}  `} style={{position:'absolute',top:'70px',right:'20vw' ,overflow:'hidden',padding:'1vw 2vw'}}>
+    <li><a  className="dropdown-item" href="#">Action</a></li>
+    <li><a  className="dropdown-item" href="#">Another action</a></li>
+    <li><a  className="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+  </div>
+  :<div   style={{display:'none'}}> <ul  className={`${style.shadows}`} style={{position:'absolute',top:'75px',right:'20vw' ,overflow:'hidden'}}>
+  <li><a  className="dropdown-item" href="#">Action</a></li>
+  <li><a  className="dropdown-item" href="#">Another action</a></li>
+  <li><a  className="dropdown-item" href="#">Something else here</a></li>
+</ul>
+</div>}
     </div>
   )
 }

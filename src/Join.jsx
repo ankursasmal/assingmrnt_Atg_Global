@@ -3,7 +3,7 @@ import google from './assets/google.png'
 import facebook from './assets/facebook.png'
 import seperate from './assets/seperate.png'
 import lock from './assets/lock.png'
-
+import './App.css'
 function Join() {
   return (
     <div className='d-flex' style={{flexDirection:'column',width:'100%'}}>
@@ -26,7 +26,7 @@ function Join() {
 </div>
 <a style={{fontSize:'.7vw',paddingTop:'1vw'}}>By continuing, you agree to our Terms of Service and Privacy Policy.</a>
 
-<button className='btn btn-outline-secondary ' style={{fontSize:'1.3vw',marginTop:'1vw'}}> Agree And Continue</button>
+<button className='btn btn-outline-secondary btnhover' style={{fontSize:'1.5vw',marginTop:'1vw'}}> Agree And Continue</button>
     </div>
   )
 }
