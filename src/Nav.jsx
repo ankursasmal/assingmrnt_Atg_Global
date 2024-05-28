@@ -104,7 +104,7 @@ setshow1(false);
 </div>}
  
  {show?
- <div className='d-none d-md-block '  style={{display:'block'}}> <ul  className={`${style.shadows}  `} style={{position:'absolute',top:'70px',right:'20vw' ,overflow:'hidden',padding:'1vw 2vw'}}>
+ <div className='d-none d-md-block '  style={{display:'block'}}> <ul  className={`${style.shadows}  `} style={{position:'absolute',top:'70px',right:'30vw' ,overflow:'hidden',padding:'1vw 2vw'}}>
     <li><a  className="dropdown-item" href="#">Action</a></li>
     <li><a  className="dropdown-item" href="#">Another action</a></li>
     <li><a  className="dropdown-item" href="#">Something else here</a></li>
