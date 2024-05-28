@@ -43,7 +43,7 @@ function Footer() {
         <form>
           <h5>Social Media</h5>
            
-<img style={{width:'100%',paddingTop:'2.5vh',paddingBottom:'5vh'}} src={social} alt="" />      
+<img style={{width:'100%',paddingTop:'2.5vw',paddingBottom:'4vw'}} src={social} alt="" />      
    <h4 style={{fontWeight:'600',paddingBottom:'2vh'}}>Invite Friends</h4>
     <div class="d-flex flex-column flex-sm-row w-100 ">
             <label for="newsletter1" class="visually-hidden">Email address</label>
