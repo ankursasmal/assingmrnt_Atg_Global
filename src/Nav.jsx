@@ -39,7 +39,7 @@ function Nav() {
 </div>
 <img src={arrow}style={{width:'2vw'}} alt="" />
 </div>
-<div className='d-flex' style={{alignItems:'center'}}>
+<div className='d-flex   align-items-center'  >
 <img src={Hobbies} style={{width:'2vw'}} alt="" />
 <div  className="dropdown">
   <button  className="btn   " style={{outline:'none',fontSize:'1.2vw'}} type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -70,9 +70,9 @@ function Nav() {
 <img src={Navimg} alt="" style={{width:'25vw'}} />
 
           <div className='d-flex align-items-center'>
-          <img src={search} style={{width:'3vw'}} alt="" />
-          <img src={notification} style={{width:'3vw',padding:'2vw 0'}} alt="" />
-          <img src={menu} style={{width:'3vw'}} alt="" />
+          <img src={search} style={{width:'4vw'}} alt="" />
+          <img src={notification} style={{width:'4vw',margin:' 0 2vw'}} alt="" />
+          <img src={menu} style={{width:'4vw'}} alt="" />
 </div>
 </div>
 </div>
