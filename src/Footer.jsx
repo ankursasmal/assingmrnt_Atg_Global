@@ -7,7 +7,7 @@ function Footer() {
     <footer class="py-5 container">
     <div class="row ">
       <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>Hobbycue</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
@@ -18,7 +18,7 @@ function Footer() {
       </div>
 
       <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>How Do I</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
@@ -29,7 +29,7 @@ function Footer() {
       </div>
 
       <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>Quick Links</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
@@ -41,7 +41,7 @@ function Footer() {
 
       <div class="col-md-5 offset-md-1 mb-3">
         <form>
-          <h5>Subscribe to our newsletter</h5>
+          <h5>Social Media</h5>
            
 <img style={{width:'100%',paddingTop:'2.5vh',paddingBottom:'5vh'}} src={social} alt="" />      
    <h4 style={{fontWeight:'600',paddingBottom:'2vh'}}>Invite Friends</h4>

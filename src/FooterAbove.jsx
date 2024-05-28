@@ -10,7 +10,7 @@ function FooterAbove() {
 <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',}}> 
 <div style={{display:'flex',flexDirection:'column'}}>
 <img src={hobby} style={{width:'35vw',marginTop:'2vw'}} alt="" />
-<button className='btn ' style={{backgroundColor:'#8064A2',alignSelf:'start',padding:'.5vw 1.3vw',margin:'2vw 0',fontSize:'1.6vw'}}>Get Started</button>
+<button className='btn ' style={{backgroundColor:'#8064A2',alignSelf:'start',padding:'.5vw 1.3vw',margin:'2vw 0',fontSize:'1.6vw',color:'white'}}>Get Started</button>
 </div>
 <div style={{display:'flex',flexDirection:'column',alignItems:'center'
 }}>
