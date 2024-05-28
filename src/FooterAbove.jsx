@@ -14,7 +14,7 @@ function FooterAbove() {
 </div>
 <div style={{display:'flex',flexDirection:'column',alignItems:'center'
 }}>
-    <img src={Group77} style={{width:'3vw',marginTop:'4vw'}} alt="" />
+    <a href=''> <img src={Group77} style={{width:'4vw',paddingTop:'4vw'}} alt="" /></a>
     <a style={{fontSize:'.7vw'}}> Go to top (Ctrl+Home)</a>
 </div>
 </div>

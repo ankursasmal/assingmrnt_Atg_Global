@@ -19,7 +19,7 @@ function Nav() {
 <div className='d-none d-md-block'> 
 <div  className="d-flex flex-column flex-sm-row  " style={{width:'22vw'}}>
             <label for="newsletter1"  className="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text"  className="form-control  " placeholder="Email address"/>
+            <input id="newsletter1" type="text"  className="form-control  " placeholder="Search  "/>
             <button className='rounded-end' style={{backgroundColor:'#8064A2'}} type="button">Invite</button>
           </div>
           </div>
